@@ -1,1 +1,1 @@
-# hysh-docker-node-alpine
+# HyperShell Node Alpine container
