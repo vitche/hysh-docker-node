@@ -13,6 +13,9 @@ COPY package.json .
 COPY index.js .
 RUN npm install
 
+# TODO: Remove this hard-coded value
+COPY start.sh .
+
 # Start the HyperShell agent and the demo application
 COPY ./container.sh .
 CMD ["sh", "-c",  "./container.sh"]
