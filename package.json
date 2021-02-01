@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docker:build": "docker build . -t vitche/hysh-docker-node-ubuntu",
+    "docker:push": "docker push vitche/hysh-docker-node-ubuntu",
     "docker:run": "docker run -dit -p 3000:3000 --restart always --name hysh-docker-node-ubuntu -e \"CHAINCODE_ID_NAME=8b554abeb1144726ab3167f67bdfba36\" vitche/hysh-docker-node-ubuntu"
   },
   "author": "",
