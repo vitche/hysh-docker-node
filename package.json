@@ -1,7 +1,7 @@
 {
-  "name": "hysh-docker-node-alpine",
+  "name": "hysh-docker-node-ubuntu",
   "version": "1.0.0",
-  "description": "HyperShell Node Alpine container",
+  "description": "HyperShell Node.js Ubuntu container",
   "main": "index.js",
   "scripts": {
     "docker:build": "docker build . -t vitche/hysh-docker-node-ubuntu",
